@@ -10,7 +10,7 @@
 
 		<p class="text-gray-700 mb-4"> {{ $recipe->body }} </p>
 
-		<p class="text-sm"><b>Category: </b> <a class="text-blue-500" href="">{{ $recipe->category->title }}</a></p>
+		<p class="text-sm text-blue-500"><b>Category: </b> <a class="text-blue-500" href="">{{ $recipe->category->title }}</a></p>
 
 	</article>
 
